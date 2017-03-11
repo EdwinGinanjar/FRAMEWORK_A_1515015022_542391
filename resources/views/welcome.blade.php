@@ -38,7 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Nama : Edwin Ginanjar F </div>
+                <div class="title">NIM  : 1515015022 </div>
             </div>
         </div>
     </body>
