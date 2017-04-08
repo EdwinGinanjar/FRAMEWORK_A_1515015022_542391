@@ -12,14 +12,13 @@ class pengguna extends Model
     public function mahasiswa()
     {
     	return $this->hasOne(Mahasiswa::class);
+        $mahasiswa=Pengguna::find(1)->mahasiswa;
+        
     }
     public function dosen()
     {
     	return $this->hasOne(Dosen::class);
     }
-    // public function Peran()
-    // {
-    // 	return $this->belongsTo(Peran::class);
-    // }
+   
 }
 

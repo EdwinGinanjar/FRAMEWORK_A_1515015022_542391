@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
-
 use App\matakuliah;
+use App\pengguna;
 
 class MatakuliahController extends Controller
 {

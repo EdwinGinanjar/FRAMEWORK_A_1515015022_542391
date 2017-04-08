@@ -3,9 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
-
 use App\pengguna;
 
 class penggunacontroller extends Controller
@@ -25,6 +23,7 @@ class penggunacontroller extends Controller
    	$pengguna->password = $input->password;
    	$informasi = $pengguna->save()? 'Berhasil simpan data':'Gagal Simpan Data';
    	  return redirect ('pengguna') ->with (['Informasi'=>$informasi]);
+      $pengguna->save();
    }
    public function edit($id)
    {
